@@ -1,0 +1,21 @@
+// ---------- Google console
+
+cnq-auth - название моего проекта в гугл консоли
+создав и выбрав проект, подключил к нему апи (google +API)
+настроить окно запроса
+название приложения - coder never quit
+учётные данные (где-то нужно нарыть какой-то гугл-ключ), допустимый тип приложений (HTTP, веб-сайты)
+
+Чтобы сгенерировать клиент id во вкладке "учётные данные" нажать "создать учётные данные" и выбрать 2-ю вкладку
+далее нужно добавить ссылку на свой локалхост и ниже ссылку на локалхост/auth/google/callback
+
+Ссылка на гугл консоль - https://console.developers.google.com/apis/credentials/oauthclient/931533933845-uk98164q4ko4jstt2fbme20jr81u5jtn.apps.googleusercontent.com?hl=RU&project=cnq-auth-277015
+
+mondoDbUser - authMern (логин и пароль)
+
+// ---------- Facebook for developers
+cnq-auth - название моего проекта в Facebook for developers
+-> Facebook login -> web -> http://localhost:5000 -> press all "next"
+-> settings -> basic -> copy AppId and AppSecret
+// не нужно // -> Facebook login (вкладка снизу) -> settings -> valid oauth redirect uris (http://localhost:5000/auth/facebook/callback) //
+
